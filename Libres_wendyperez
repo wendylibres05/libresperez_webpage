@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* HERO */
+        .hero {
+            background: #6c63ff;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        /* SECTIONS */
+        .container {
+            padding: 20px;
+        }
+
+        .about, .gallery {
+            margin-bottom: 30px;
+        }
+
+        /* GALLERY GRID */
+        .gallery-items {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        .box {
+            background: #ddd;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* TABLET VIEW */
+        @media (min-width: 600px) {
+            .gallery-items {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        /* DESKTOP VIEW */
+        @media (min-width: 900px) {
+            .gallery-items {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <h2>MySite</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Hi im Wendy Libres</h1>
+        <p>This is my responsive webpage project as an IS student here in NCF</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="container about">
+        <h2>About my self</h2>
+        <p>
+            i loved to eat, sleep and watching some anime
+        </p>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="container gallery">
+        <h2>My Memories</h2>
+        <div class="gallery-items">
+            <div class="box">Project 1</div>
+            <div class="box">Project 2</div>
+            <div class="box">Project 3</div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+</body>
+</html>
+You sent
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Responsive Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: #6c63ff;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .gallery-items {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .box {
+            background: #ddd;
+            padding: 25px;
+            text-align: center;
+        }
+        @media (min-width: 600px) { .gallery-items { grid-template-columns: 1fr 1fr; } }
+        @media (min-width: 900px) { .gallery-items { grid-template-columns: 1fr 1fr 1fr; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>MySite</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Responsive design with Flexbox & Grid</p>
+    </section>
+
+    <section class="container">
+        <h2>About Me</h2>
+        <p>im lazy all the time.</p>
+    </section>
+
+    <section class="container">
+        <h2>My Projects</h2>
+        <div class="gallery-items">
+            <div class="box">Project 1</div>
+            <div class="box">Project 2</div>
+            <div class="box">Project 3</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+</body>
+</html>
+11:07 PM
+You sent
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtSpace - Art Appreciation Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Consistent font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER (Logo + Navigation) -->
+    <header>
+        <div class="header-container">
+            <h1 class="logo">ArtSpace</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Art</a></li>
+                    <li><a href="#gallery">Art Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (Main Banner) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Celebrating Visual Creativity</h2>
+            <p>Explore timeless masterpieces and modern works that shape our understanding of art.</p>
+        </div>
+    </section>
+
+    <!-- ABOUT/INFORMATION SECTION -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>What Is Art Appreciation?</h2>
+            <div class="about-content">
+                <p>Art appreciation is the practice of analyzing, interpreting, and valuing works of art. It goes beyond "liking" a piece – it involves understanding the context, techniques, and emotions that artists convey through their creations.</p>
+                <p>From Renaissance paintings to contemporary sculptures, every artwork tells a story about its time, culture, and the human experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY/PROJECTS SECTION -->
+    <section id="gallery" class="art-gallery">
+        <div class="container">
+            <h2>Featured Artworks</h2>
+            <div class="gallery-grid">
+                <div class="art-card">
+                    <div class="art-img">• Renaissance Art •</div>
+                    <h3>The Mona Lisa</h3>
+                    <p>Leonardo da Vinci | 1503-1519</p>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">• Baroque Art •</div>
+                    <h3>The Night Watch</h3>
+                    <p>Rembrandt van Rijn | 1642</p>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">• Modern Art •</div>
+                    <h3>The Starry Night</h3>
+                    <p>Vincent van Gogh | 1889</p>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">• Contemporary Art •</div>
+                    <h3>Campbell's Soup Cans</h3>
+                    <p>Andy Warhol | 1962</p>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">• Impressionism •</div>
+                    <h3>Water Lilies</h3>
+                    <p>Claude Monet | 1906</p>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">• Cubism •</div>
+                    <h3>Les Demoiselles d'Avignon</h3>
+                    <p>Pablo Picasso | 1907</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 ArtSpace | GEC6 - Art Appreciation Activity</p>
+            <p>Designed with responsive layout techniques</p>
+        </div>
+    </footer>
+</body>
+</html>
